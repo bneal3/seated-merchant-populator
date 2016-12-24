@@ -14,8 +14,7 @@ var server = 'Server timeout...';
 app.get('/', function(req, res) {
 	var page = '';
 	page += '<h1>VocoLife Auto Populator</h1><br />';
-	page += 'Use the command /help for help:<br />';
-	page += 'voco-auto-populator/help';
+	page += 'Use the command /help for help.<br />';
 	res.send(page);
 });
 
