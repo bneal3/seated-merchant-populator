@@ -47,9 +47,9 @@ app.get('/list', function(req, res) {
 app.get('/help', function(req, res) {
 	var page = '';
 	page += 'To retrieve times for a merchant, use the command format: <br />';
-	page += 'voco-auto-populator/:shop/:location/:course <br />';
+	page += '/:shop/:location/:course <br />';
 	page += '<br /> Use /list to see all possible shop, location and course combinations: <br />';
-	page += 'voco-auto-populator/list';
+	page += '/list';
 	res.send(page);
 });
 
